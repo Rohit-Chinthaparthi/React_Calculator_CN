@@ -1,0 +1,91 @@
+.calculator {
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 0 50px #80473e;
+}
+
+.input-section {
+  background-color: #33394d;
+  height: 150px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  width: 360px;
+}
+
+input {
+  border: none;
+  width: 340px;
+  height: 80px;
+  background-color: #33394d;
+  color: #FFFFFF;
+  font-size: 50px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 100;
+  letter-spacing: 10px;
+  text-align: end;
+  padding-right: 10px;
+}
+
+::placeholder {
+  color: #FFFFFF;
+}
+
+textarea:focus, input:focus {
+  outline: none;
+}
+
+.buttons-section {
+  display: flex;
+}
+
+.grey-section button {
+  background-color: #cccccd;
+  border-right: 1px solid #b3b1b1;
+}
+
+#reset-button {
+  width: 180px;
+}
+
+.white-section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap-reverse;
+  width: 270px;
+}
+
+.white-section button {
+  background-color: #FFFFFF;
+  border-right: 1px solid #b3b1b1;
+  border-top: 1px solid #b3b1b1;
+}
+
+.orange-section {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.orange-section button {
+  background-color: #ff9f70;
+  font-size: 26px;
+  border-top: 1px solid #da8860;
+}
+
+#equal {
+  background-color: #fd826e;
+}
+
+button {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 100;
+  border: none;
+  height: 70px;
+  width: 90px;
+  font-size: 18px;
+}
+
+button:hover {
+  font-weight: 400;
+  cursor: pointer;
+}
